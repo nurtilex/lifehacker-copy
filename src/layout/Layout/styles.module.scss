@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: $header-height;
+
+  .content {
+    min-height: 100vh;
+    flex-grow: 1;
+  }
+}
