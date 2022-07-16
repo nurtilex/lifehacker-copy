@@ -7,10 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8.5vw;
   width: 100%;
   height: $header-height;
   background-color: $orange;
   color: $text-white;
-  padding: 0;
   font-size: 1.3rem;
 }

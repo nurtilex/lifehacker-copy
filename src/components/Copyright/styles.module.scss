@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.Copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 20%;
+  height: 70%;
+  color: $text-white;
+
+  .adults {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: $gray;
+    border-radius: 10px;
+    border: 2px solid $gray;
+  }
+
+  .text {
+    width: 100%;
+    color: $gray;
+    font-size: 0.75rem;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.NavControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $orange-hover;
+    }
+  }
+
+  .icon {
+    width: 21px;
+    height: 21px;
+  }
+  .iconSmall {
+    width: 17px;
+    height: 17px;
+  }
+
+}
